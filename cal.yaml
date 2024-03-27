@@ -10,7 +10,7 @@ schemes:
 
 paths:
   /add:
-    get:
+    post:
       operationId: addOperation
       summary: Perform addition between two integers.
       produces:
@@ -42,7 +42,7 @@ paths:
         address: https://us-central1-analog-codex-415112.cloudfunctions.net/add
 
   /sub:
-    get:
+    post:
       operationId: subOperation
       summary: Perform subtraction between two integers.
       produces:
@@ -74,7 +74,7 @@ paths:
         address: https://us-central1-analog-codex-415112.cloudfunctions.net/sub
 
   /mul:
-    get:
+    post:
       operationId: mulOperation
       summary: Perform multiplication between two integers.
       produces:
@@ -106,7 +106,7 @@ paths:
         address: https://us-central1-analog-codex-415112.cloudfunctions.net/mul
 
   /div:
-    get:
+    post:
       operationId: divOperation
       summary: Perform division between two integers.
       produces:
